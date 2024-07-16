@@ -1,0 +1,64 @@
+# Binaries for programs and plugins
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Output of the Go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Go modules
+/go/pkg/mod
+/go/pkg/sumdb
+
+# Godog
+.godog
+.godog.json
+
+# Goland
+.idea
+
+# IDEs and editors
+.vscode/
+*.swp
+*~
+
+# Go workspace file
+go.work
+go.work.sum
+
+# Directories for Go build output
+bin/
+build/
+
+# Logs
+*.log
+
+# Dependency directories
+vendor/
+
+# Environment variables
+.env
+
+# Ignore Mac OS X folder attributes
+.DS_Store
+
+# Windows thumbnail cache files
+Thumbs.db
+
+# Linux temporary files
+*.bak
+
+# Ignore coverage files
+coverage.out
+
+# Ignore binary files
+*.exe
+*.dll
+*.so
+*.dylib
+*.test
+*.exe~
+*.dll~
+*.so~
+*.dylib~
